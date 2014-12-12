@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  get "/singles/:id", to: "singles#show", as: :single
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
